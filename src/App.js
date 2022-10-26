@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import classes from "./App.module.css";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <a href="/">Packages</a>
+              <Link to="packages">Packages</Link>
             </li>
             <li>
               <a href="/">Customers</a>

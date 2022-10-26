@@ -85,8 +85,6 @@ main {
   padding: 32px;
 }
 
-.package h1 {
-}
 .package h2 {
   color: #979797;
 }
@@ -97,19 +95,27 @@ main {
   color: #0e4f1f;
   background-color: white;
 }
+.clearfix {
+  clear: both;
+}
+
 .package:nth-child(1) {
   background-color: rgba(213, 255, 220, 0.95);
 }
 .package:nth-child(2) {
   background-color: rgba(234, 252, 237, 0.95);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
 }
-.package:nth-child(3) {
+.package:last-child {
   background-color: rgba(14, 79, 31, 0.95);
 }
-.package:nth-child(3) h1 {
+.package:last-child h1 {
   color: white;
 }
-.package:nth-child(3) h2 {
+.package:last-child h2 {
   color: #bbb;
 }
 

@@ -41,6 +41,9 @@ function Packages() {
             <p>Get started immediately at zero cost!</p>
           </a>
         </section>
+
+        <div className={classes.clearfix}></div>
+
         <section className={classes.package}>
           <a href="#">
             <h1>Our PREMIUM Plan</h1>

@@ -176,7 +176,11 @@ button:focus {
 .plans li {
   margin: 8px 0;
 }
-
+.plans div {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
 .mainFooter {
   background-color: black;
   padding: 32px;

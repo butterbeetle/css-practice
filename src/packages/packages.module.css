@@ -63,6 +63,25 @@ body {
   border: none;
 }
 
+main {
+  padding-top: 32px;
+}
+
+.package {
+  background-color: #cef8d8;
+  border: 4px solid #0f3819;
+  border-left: none;
+  margin: 16px 0;
+  width: 80%;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
 .mainFooter {
   background-color: black;
   padding: 32px;

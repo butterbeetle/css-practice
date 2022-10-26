@@ -109,6 +109,11 @@ main {
   border-left: 4px solid #0e4f1f;
   text-align: right;
 }
+.package:nth-child(2):hover,
+.package:nth-child(2):active {
+  border-left-color: #ff4545;
+}
+
 .package:last-child {
   background-color: rgba(14, 79, 31, 0.95);
 }

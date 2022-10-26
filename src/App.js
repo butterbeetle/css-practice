@@ -30,8 +30,8 @@ function App() {
           <h1 className={classes.sectionTitle}>Choose Your Plan</h1>
           <div>
             <article>
-              <h1>FREE</h1>
-              <h2>$0/month</h2>
+              <h1 className={classes.title}>FREE</h1>
+              <h2 className={classes.price}>$0/month</h2>
               <h3>For hobby projects or small teams.</h3>
               <ul>
                 <li>1 Workspace</li>
@@ -45,8 +45,8 @@ function App() {
             </article>
             <article>
               <h1>RECOMMENDED</h1>
-              <h1>PLUS</h1>
-              <h2>$29/month</h2>
+              <h1 className={classes.title}>PLUS</h1>
+              <h2 className={classes.price}>$29/month</h2>
               <h3>For ambitious projects.</h3>
               <ul>
                 <li>5 Workspaces</li>
@@ -59,8 +59,8 @@ function App() {
               </div>
             </article>
             <article>
-              <h1>PREMIUM</h1>
-              <h2>$99/month</h2>
+              <h1 className={classes.title}>PREMIUM</h1>
+              <h2 className={classes.price}>$99/month</h2>
               <h3>Your enterprise solution.</h3>
               <ul>
                 <li>10 Workspaces</li>

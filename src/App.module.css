@@ -88,6 +88,19 @@ body {
   vertical-align: middle;
 }
 
+.title {
+  color: #0e4f1f;
+}
+.price {
+  color: #858585;
+}
+.plans article:nth-child(2) .title {
+  color: white;
+}
+.plans article:nth-child(2) .price {
+  color: #0e4f1f;
+}
+
 .plans article:nth-child(2) {
   background-color: #19b84c;
   color: white;

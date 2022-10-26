@@ -1,8 +1,9 @@
+import { Fragment } from "react";
 import classes from "./App.module.css";
 
 function App() {
   return (
-    <main>
+    <Fragment>
       <header className={classes.mainHeader}>
         <div>
           <a href="/">uHost</a>
@@ -21,15 +22,60 @@ function App() {
           </ul>
         </nav>
       </header>
-      <section className={classes.productOverview}>
-        <h1>Get the freedom you deserve.</h1>
-      </section>
-
-      <section className={classes.plans}>
-        <h1 className={classes.sectionTitle}>Choose Your Plan</h1>
-        <p>Make sure you get the most for your money!</p>
-      </section>
-    </main>
+      <main>
+        <section className={classes.productOverview}>
+          <h1>Get the freedom you deserve.</h1>
+        </section>
+        <section className={classes.plans}>
+          <h1 className={classes.sectionTitle}>Choose Your Plan</h1>
+          <div>
+            <article>
+              <h1>FREE</h1>
+              <h2>$0/month</h2>
+              <h3>For hobby projects or small teams.</h3>
+              <ul>
+                <li>1 Workspace</li>
+                <li>Unlimited Traffic</li>
+                <li>10GB Storage</li>
+                <li>Basic Support</li>
+              </ul>
+              <div>
+                <button>CHOOSE PLAN</button>
+              </div>
+            </article>
+            <article>
+              <h1>RECOMMENDED</h1>
+              <h1>PLUS</h1>
+              <h2>$29/month</h2>
+              <h3>For ambitious projects.</h3>
+              <ul>
+                <li>5 Workspaces</li>
+                <li>Unlimited Traffic</li>
+                <li>100GB Storage</li>
+                <li>Plus Support</li>
+              </ul>
+              <div>
+                <button>CHOOSE PLAN</button>
+              </div>
+            </article>
+            <article>
+              <h1>PREMIUM</h1>
+              <h2>$99/month</h2>
+              <h3>Your enterprise solution.</h3>
+              <ul>
+                <li>10 Workspaces</li>
+                <li>Unlimited Traffic</li>
+                <li>Unlimited Storage</li>
+                <li>Priority Support</li>
+              </ul>
+              <div>
+                <button>CHOOSE PLAN</button>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </Fragment>
   );
 }
 

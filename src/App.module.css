@@ -15,7 +15,6 @@ body {
 
 .productOverview h1 {
   color: white;
-  font-family: "Anton", sans-serif;
 }
 
 .sectionTitle {
@@ -65,14 +64,15 @@ body {
   border-bottom: 3px solid white;
 }
 
-.cta a {
+.mainHeader li:last-child a {
   color: white;
   background-color: red;
   padding: 8px 16px;
-  border-radius: 8px;
+  border-radius: 5px;
 }
-.cta a:hover,
-.cta a:active {
+
+.mainHeader li:last-child a:hover,
+.mainHeader li:last-child a:active {
   color: red;
   background-color: white;
   border: none;

@@ -94,6 +94,18 @@ function App() {
           </ul>
         </section>
       </main>
+      <footer className={classes.mainFooter}>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Support</a>
+            </li>
+            <li>
+              <a href="/">Terms of Use</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
     </Fragment>
   );
 }

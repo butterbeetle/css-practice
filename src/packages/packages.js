@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import classes from "./packages.module.css";
 
-function Packages() {
+const Packages = () => {
   return (
     <Fragment>
       <header className={classes.mainHeader}>
@@ -71,6 +71,6 @@ function Packages() {
       </footer>
     </Fragment>
   );
-}
+};
 
 export default Packages;

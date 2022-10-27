@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import classes from "./App.module.css";
 
-function App() {
+const App = () => {
   return (
     <Fragment>
       <header className={classes.mainHeader}>
@@ -109,6 +109,6 @@ function App() {
       </footer>
     </Fragment>
   );
-}
+};
 
 export default App;

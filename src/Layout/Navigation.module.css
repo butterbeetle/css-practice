@@ -1,0 +1,58 @@
+.mainHeader {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #0d960d;
+  padding: 8px 16px;
+}
+.mainHeader div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mainHeader div a {
+  color: #19350d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.mainHeader nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+.mainHeader ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.mainHeader li {
+  display: inline-block;
+  margin: 0 16px;
+}
+.mainHeader li a {
+  text-decoration: none;
+  color: #19350d;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.mainHeader li a:hover,
+.mainHeader li a:active {
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.mainHeader li:last-child a {
+  color: white;
+  background-color: red;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.mainHeader li:last-child a:hover,
+.mainHeader li:last-child a:active {
+  color: red;
+  background-color: white;
+  border: none;
+}

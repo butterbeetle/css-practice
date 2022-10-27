@@ -1,12 +1,16 @@
 .productOverview {
-  background: url("cat.jpg");
+  background: url("./Images/freedom.jpg");
   width: 100%;
   height: 528px;
   padding: 10px;
+  position: relative;
 }
 
 .productOverview h1 {
   color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 .sectionTitle {
   color: #0d960d;

@@ -1,12 +1,25 @@
+import { Fragment } from "react";
 import classes from "./examplar.module.css";
 
 const Examplar = () => {
   return (
-    <div className={classes.parent}>
-      <div className={classes.child1}>Navigation Bar</div>
-      <div className={classes.child2}>Background Image</div>
-      <div className={classes.child3}>Features</div>
-    </div>
+    <Fragment>
+      <div className={classes.parent}>
+        <div className={classes.country}>Navigation Bar</div>
+        <div className={classes.cities}>Background Image</div>
+        <div className={classes.cities}>Features</div>
+      </div>
+      <div className={classes.parent}>
+        <div className={classes.country}>Navigation Bar</div>
+        <div className={classes.cities}>Background Image</div>
+        <div className={classes.cities}>Features</div>
+      </div>
+      <div className={classes.parent}>
+        <div className={classes.country}>Navigation Bar</div>
+        <div className={classes.cities}>Background Image</div>
+        <div className={classes.cities}>Features</div>
+      </div>
+    </Fragment>
   );
 };
 export default Examplar;

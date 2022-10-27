@@ -4,6 +4,7 @@
   top: 0;
   background-color: #0d960d;
   padding: 8px 16px;
+  z-index: 1;
 }
 .mainHeader div {
   display: inline-block;

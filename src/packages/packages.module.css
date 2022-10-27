@@ -10,6 +10,7 @@
   border-left: none;
   margin: 16px 0;
   width: 80%;
+  position: relative;
 }
 .package:hover,
 .package:active {
@@ -23,7 +24,18 @@
   padding: 32px;
 }
 
-.package h2 {
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 12px;
+  color: white;
+  background-color: #ff5454;
+  padding: 8px;
+}
+
+.subtitle {
   color: #979797;
 }
 .package p {

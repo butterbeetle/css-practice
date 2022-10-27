@@ -11,7 +11,10 @@ const Packages = () => {
           <section className={classes.package}>
             <a href="#">
               <h1>Our PLUS Plan</h1>
-              <h2>The most popular choice of our customers.</h2>
+              <h2 className={classes.badge}>RECOMMENDED</h2>
+              <h2 className={classes.subtitle}>
+                The most popular choice of our customers.
+              </h2>
               <p>
                 Benefit from increased storage and faster support to ensure that
                 your mission-critical data and applications are always
@@ -22,7 +25,9 @@ const Packages = () => {
           <section className={classes.package}>
             <a href="#">
               <h1>Our FREE Plan</h1>
-              <h2>An extremely solid start into our hosting world.</h2>
+              <h2 className={classes.subtitle}>
+                An extremely solid start into our hosting world.
+              </h2>
               <p>Get started immediately at zero cost!</p>
             </a>
           </section>
@@ -32,7 +37,7 @@ const Packages = () => {
           <section className={classes.package}>
             <a href="#">
               <h1>Our PREMIUM Plan</h1>
-              <h2>
+              <h2 className={classes.subtitle}>
                 All your enterprise needs. Instant support, guaranteed uptime.{" "}
               </h2>
               <p>

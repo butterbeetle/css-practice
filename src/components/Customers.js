@@ -10,42 +10,42 @@ const Customers = () => {
       <Layout>
         <main>
           <div>
-            <div class="testimonial" id="customer-1">
-              <div class="testimonial__image-container">
+            <div className={[classes.testimonial, classes.customer1].join(" ")}>
+              <div className={classes.testimonial__imageContainer}>
                 <img
                   src={customerLogo1}
                   alt="Mike Statham - Customer"
-                  class="testimonial__image"
+                  className={classes.testimonial__image}
                 />
               </div>
-              <div class="testimonial__info">
-                <h1 class="testimonial__name">Mike Statham</h1>
-                <h2 class="testimonial__subtitle">
+              <div className={classes.testimonial__info}>
+                <h1 className={classes.testimonial__name}>Mike Statham</h1>
+                <h2 className={classes.testimonial__subtitle}>
                   Founder of
                   <a href="tech-analysis.com">tech-analysis.com</a>
                 </h2>
-                <p class="testimonial__text">
+                <p className={classes.testimonial__text}>
                   uHost helped me realize my project with a highly constrained
                   budget in like no time.
                 </p>
               </div>
             </div>
-            <div class="testimonial" id="customer-2">
-              <div class="testimonial__info">
-                <h1 class="testimonial__name">John Mellow</h1>
-                <h2 class="testimonial__subtitle">
+            <div className={[classes.testimonial, classes.customer2].join(" ")}>
+              <div className={classes.testimonial__info}>
+                <h1 className={classes.testimonial__name}>John Mellow</h1>
+                <h2 className={classes.testimonial__subtitle}>
                   Hosts his private videos on uHost.
                 </h2>
-                <p class="testimonial__text">
+                <p className={classes.testimonial__text}>
                   I worked as a blogger and always looked for an integrated
                   hosting and file storage solution. I found it in uHost!
                 </p>
               </div>
-              <div class="testimonial__image-container">
+              <div className={classes.testimonial__imageContainer}>
                 <img
                   src={customerLogo2}
                   alt="John Mellow - Customer"
-                  class="testimonial__image"
+                  className={classes.testimonial__image}
                 />
               </div>
             </div>

@@ -1,6 +1,9 @@
 import { Fragment } from "react";
 import classes from "./App.module.css";
 import Layout from "./Layout/Layout";
+// import { ReactComponent as Svg1 } from "./Images/svg/svg1.svg";
+// import { ReactComponent as Svg2 } from "./Images/svg/svg2.svg";
+// import { ReactComponent as Svg3 } from "./Images/svg/svg3.svg";
 
 const App = () => {
   return (

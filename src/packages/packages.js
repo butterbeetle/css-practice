@@ -5,6 +5,7 @@ import classes from "./packages.module.css";
 const Packages = () => {
   return (
     <Fragment>
+      <div className={classes.background}></div>
       <Layout>
         <main>
           <section className={classes.package}>

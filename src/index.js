@@ -12,7 +12,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/packages" element={<Packages />} />
-      <Route path="/examplar" element={<Examplar />} />
+      {/* <Route path="/examplar" element={<Examplar />} /> */}
     </Routes>
   </BrowserRouter>
 );

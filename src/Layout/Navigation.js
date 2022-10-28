@@ -7,7 +7,7 @@ const Navigation = () => {
     <header className={classes.mainHeader}>
       <div>
         <a href="/">
-          <img src={logo} alt="uHost - Your favorite hosting company" />{" "}
+          <img src={logo} alt="uHost - Your favorite hosting company" />
         </a>
       </div>
       <nav>
@@ -16,7 +16,7 @@ const Navigation = () => {
             <Link to="/packages">Packages</Link>
           </li>
           <li>
-            <a href="/">Customers</a>
+            <Link to="/customers">Customers</Link>
           </li>
           <li className={classes.cta}>
             <a href="/">Start Hosting</a>

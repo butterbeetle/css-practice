@@ -9,7 +9,7 @@ const Packages = () => {
       <Layout>
         <main>
           <section className={classes.package}>
-            <a href="#">
+            <a href="/">
               <h1>Our PLUS Plan</h1>
               <h2 className={classes.badge}>RECOMMENDED</h2>
               <h2 className={classes.subtitle}>
@@ -23,7 +23,7 @@ const Packages = () => {
             </a>
           </section>
           <section className={classes.package}>
-            <a href="#">
+            <a href="/">
               <h1>Our FREE Plan</h1>
               <h2 className={classes.subtitle}>
                 An extremely solid start into our hosting world.
@@ -35,7 +35,7 @@ const Packages = () => {
           <div className={classes.clearfix}></div>
 
           <section className={classes.package}>
-            <a href="#">
+            <a href="/">
               <h1>Our PREMIUM Plan</h1>
               <h2 className={classes.subtitle}>
                 All your enterprise needs. Instant support, guaranteed uptime.{" "}

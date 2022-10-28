@@ -1,12 +1,18 @@
 .productOverview {
-  background: url("./Images/freedom.jpg") left 10% bottom 20% / cover no-repeat
-    border-box;
+  /* background: url("./Images/freedom.jpg") left 10% bottom 20% / cover no-repeat
+    border-box; */
   /* background-image: url("./Images/freedom.jpg");
   background-size: cover;
   background-position: left 10% bottom 20%; */
   /* background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: content-box; */
+  background-image: linear-gradient(
+    180deg,
+    red 70%,
+    blue 60%,
+    rgba(0, 0, 0, 0.3)
+  );
   width: 100%;
   height: 528px;
   padding: 10px;

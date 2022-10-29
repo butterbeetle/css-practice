@@ -1,9 +1,7 @@
 .mainFooter {
   background-color: black;
-  padding: 32px;
-  margin-top: 32px;
-  position: absolute;
-  width: 100%;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 .mainFooter ul {
@@ -14,7 +12,7 @@
 }
 .mainFooter li {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .mainFooter a {

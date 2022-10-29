@@ -7,7 +7,7 @@ const Packages = () => {
     <Fragment>
       <div className={classes.background}></div>
       <Layout>
-        <main>
+        <main className={classes.main}>
           <section className={classes.package}>
             <a href="/">
               <h1>Our PLUS Plan</h1>

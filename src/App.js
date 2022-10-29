@@ -27,7 +27,7 @@ const App = () => {
                   <li>Basic Support</li>
                 </ul>
                 <div>
-                  <button>CHOOSE PLAN</button>
+                  <button className={classes.button}>CHOOSE PLAN</button>
                 </div>
               </article>
               <article>
@@ -42,7 +42,7 @@ const App = () => {
                   <li>Plus Support</li>
                 </ul>
                 <div>
-                  <button>CHOOSE PLAN</button>
+                  <button className={classes.button}>CHOOSE PLAN</button>
                 </div>
               </article>
               <article>
@@ -56,7 +56,7 @@ const App = () => {
                   <li>Priority Support</li>
                 </ul>
                 <div>
-                  <button>CHOOSE PLAN</button>
+                  <button className={classes.button}>CHOOSE PLAN</button>
                 </div>
               </article>
             </div>

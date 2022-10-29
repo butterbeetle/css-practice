@@ -42,8 +42,8 @@
 
 .modal__action:hover,
 .modal__action:active {
-  background: #2ddf5c;
-  border-color: #2ddf5c;
+  background: #1cbb46;
+  border-color: #1cbb46;
 }
 
 .modal__actionNegative {
@@ -53,6 +53,6 @@
 
 .modal__actionNegative:hover,
 .modal__actionNegative:active {
-  background: #ff5454;
-  border-color: #ff5454;
+  background: #fa8b8b;
+  border-color: #fa8b8b;
 }

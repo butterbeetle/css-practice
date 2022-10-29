@@ -1,4 +1,5 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
+import Modal from "./Layout/Backdrop";
 import classes from "./App.module.css";
 import Layout from "./Layout/Layout";
 // import { ReactComponent as Svg1 } from "./Images/svg/svg1.svg";
@@ -6,9 +7,20 @@ import Layout from "./Layout/Layout";
 // import { ReactComponent as Svg3 } from "./Images/svg/svg3.svg";
 
 const App = () => {
+  const [isModal, setIsModal] = useState(false);
+
+  const showModal = () => {
+    setIsModal(true);
+  };
+
+  const hideModal = () => {
+    setIsModal(false);
+  };
+
   return (
     <Fragment>
       <Layout>
+        {isModal && <Modal onClose={hideModal} />}
         <main>
           <section className={classes.productOverview}>
             <h1>Get the freedom you deserve.</h1>
@@ -27,7 +39,9 @@ const App = () => {
                   <li>Basic Support</li>
                 </ul>
                 <div>
-                  <button className={classes.button}>CHOOSE PLAN</button>
+                  <button onClick={showModal} className={classes.button}>
+                    CHOOSE PLAN
+                  </button>
                 </div>
               </article>
               <article>
@@ -42,7 +56,9 @@ const App = () => {
                   <li>Plus Support</li>
                 </ul>
                 <div>
-                  <button className={classes.button}>CHOOSE PLAN</button>
+                  <button onClick={showModal} className={classes.button}>
+                    CHOOSE PLAN
+                  </button>
                 </div>
               </article>
               <article>
@@ -56,7 +72,9 @@ const App = () => {
                   <li>Priority Support</li>
                 </ul>
                 <div>
-                  <button className={classes.button}>CHOOSE PLAN</button>
+                  <button onClick={showModal} className={classes.button}>
+                    CHOOSE PLAN
+                  </button>
                 </div>
               </article>
             </div>

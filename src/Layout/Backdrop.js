@@ -3,10 +3,10 @@ import ReactDom from "react-dom";
 import { Link } from "react-router-dom";
 import classes from "./Backdrop.module.css";
 
-const Backdrop = () => {
+const Backdrop = (props) => {
   return (
     <Fragment>
-      <div className={classes.backdrop} />
+      <div onClick={props.onClose} className={classes.backdrop} />
     </Fragment>
   );
 };
@@ -38,7 +38,7 @@ const Modal = (props) => {
   return (
     <Fragment>
       {ReactDom.createPortal(
-        <Backdrop />,
+        <Backdrop onClose={props.onClose} />,
         document.getElementById("backdrop-root")
       )}
       {ReactDom.createPortal(

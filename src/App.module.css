@@ -1,6 +1,6 @@
 .productOverview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("./Images/freedom.jpg") left 10% bottom 70% / cover no-repeat border-box,
+    url("./Images/freedom.jpg") left 10% bottom 75% / cover no-repeat border-box,
     #ff1b68;
   /* background-image: url("./Images/freedom.jpg");
   background-size: cover;
@@ -21,7 +21,7 @@
     green
   ); */
   width: 100vw;
-  height: 22vh;
+  height: 18vh;
   margin-top: 2.75rem;
   /* border: 5px dashed red; */
   position: relative;

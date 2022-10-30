@@ -2,6 +2,15 @@
   background: white;
   padding: 10px;
   border: 5px solid black;
+  height: 1300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-flow: row wrap */
+  /* align-items => 교차축을 기준으로 */
+  align-items: center;
+  /* justify-content => 주축을 기준으로*/
+  justify-content: center;
 }
 
 .item-1 {

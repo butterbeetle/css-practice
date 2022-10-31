@@ -6,6 +6,7 @@ import App from "./App";
 import Packages from "./packages/packages";
 import Examplar from "./examplar/examplar";
 import Customers from "./components/Customers";
+import GridExam from "./examplar/GridExam";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Route path="/packages" element={<Packages />} />
       <Route path="/customers" element={<Customers />} />
       <Route path="/examplar" element={<Examplar />} />
+      <Route path="/grid" element={<GridExam />} />
     </Routes>
   </BrowserRouter>
 );
